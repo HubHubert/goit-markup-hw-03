@@ -417,6 +417,15 @@ body {
 .images-dimensions-portfolio {
   width: 370px;
   height: 294px;
+  display: block;
+}
+.list-for-texts-portfolio {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 24px;
+}
+.items-list-texts-portfolio {
+  text-align: left;
 }
 .portfolio-project-name {
   font-weight: 700;
@@ -433,6 +442,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--third-main-text-color);
   margin: 0px;
+  margin-top: 4px;
 }
 .buttons-list {
   display: flex;
